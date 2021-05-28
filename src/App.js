@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
