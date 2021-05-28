@@ -1,17 +1,12 @@
-.header-heading{
-    font-weight: bolder;
-    font-size: 70px;
+.brand {
+  display: inline-block;
+  padding: 10px;
+  transition: border 0.2s ease;
 }
-.header-button{
-    height: 55px;
-    width: 150px;
-    /* border: 1px solid red; */
-    
+.brand:hover {
+  border: 3px solid #0092ff;
+  border-radius: 10px;
 }
-.header-button:hover{
-   color: red;
-}
-.card{
-    height: 300px;
-    padding: 10px;
+.content {
+  position: relative;
 }

@@ -1,19 +1,17 @@
 .header-container {
-    height: 100vh;
-    position:relative;
-    background-image: url('../../images/header-bg.jpg');
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
+  /* height: 110vh; */
+  position: relative;
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
 }
-.header-container::before{
-    content:  "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: #181414;
-    /* background: #151616; */
-    opacity: .5;
-    top: 0;
+.header-container::before {
+  content: "";
+  display: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #020202;
+  opacity: 0.8;
+  top: 0;
+  /* z-index: -1; */
 }
