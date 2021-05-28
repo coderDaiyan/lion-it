@@ -1,0 +1,17 @@
+.header-heading{
+    font-weight: bolder;
+    font-size: 70px;
+}
+.header-button{
+    height: 55px;
+    width: 150px;
+    /* border: 1px solid red; */
+    
+}
+.header-button:hover{
+   color: red;
+}
+.card{
+    height: 300px;
+    padding: 10px;
+}
