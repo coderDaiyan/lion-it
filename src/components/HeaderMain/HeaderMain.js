@@ -6,7 +6,7 @@ const HeaderMain = () => {
     return (
         <div>
 
-            <main style={{ height: '600px', marginTop: '200px', border: '1px solid red', position: 'absolute' }} className="row d-flex align-items-center w-100">
+            <main style={{ height: '600px', marginTop: '200px', position: 'absolute' }} className="row d-flex align-items-center w-100">
                 <div className="col-md-1"></div>
                 <div className="col-md-8 col-sm-8 col-8 ">
                     {/* <div className="logo-container"><img src={logo} alt="" /></div> */}
