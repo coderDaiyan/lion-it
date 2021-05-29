@@ -19,14 +19,14 @@ const serviceData = [
 
 const Services = () => {
     return (
-        <div>
-            <h2 className="text-center mt-5">Offer The Latest Software And <br /> Solutions To Our Customers!</h2>
+        <div className="container">
+            <h2 className="text-center">Offer The Latest Software And <br /> Solutions To Our Customers!</h2>
             <div className="row w-100 mt-5">
                 {
                     serviceData.map( service => <ServiceCard service={service}></ServiceCard>)
                 }
 
-                <p className="text-secondary mt-4 text-center">Working hard to earn our customer's trust. <span className="text-dark">Explore All Services </span></p>
+                <p className="text-secondary mt-4 text-center">Working hard to earn our customer's trust. <a href="#" className="text-dark">Explore All Services </a></p>
             </div>
         </div>
     );
