@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "title": "IT Management Service",
+    "desc": "IT management service that manages and oversees the IT of organization responsible for network and operations which includes data communication."
+  },
+  {
+    "id": "2",
+    "title": "Cyber Security Service",
+    "desc": "IT management service that manages and oversees the IT of organization responsible for network and operations which includes data communication."
+  },
+  {
+    "id": "3",
+    "title": "Cloud Computing Service",
+    "desc": "IT management service that manages and oversees the IT of organization responsible for network and operations which includes data communication."
+  }
+]

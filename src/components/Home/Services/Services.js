@@ -1,21 +1,7 @@
 import React from "react";
+import serviceData from "../../../fakeData/servicedata.json";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import "./Services.css";
-
-const serviceData = [
-  {
-    title: "IT Management Service",
-    desc: "IT management service that manages and oversees the IT of organization responsible for network and operations which includes data communication.",
-  },
-  {
-    title: "Cyber Security Service",
-    desc: "IT management service that manages and oversees the IT of organization responsible for network and operations which includes data communication.",
-  },
-  {
-    title: "Cloud Computing Service",
-    desc: "IT management service that manages and oversees the IT of organization responsible for network and operations which includes data communication.",
-  },
-];
 
 const Services = () => {
   return (

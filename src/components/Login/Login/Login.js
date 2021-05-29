@@ -2,6 +2,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
+import { useHistory, useLocation } from "react-router";
 import swal from "sweetalert";
 import { loginContext } from "../../../App";
 import { firebaseConfig } from "../../../firebase.config";
@@ -21,6 +22,11 @@ function Login() {
     message: "",
     isSignedIn: true,
   });
+
+  let history = useHistory();
+  let location = useLocation();
+
+  let { from } = location.state || { from: { pathname: "/" } };
 
   const {
     register,
@@ -44,6 +50,7 @@ function Login() {
         var user = userCredential.user;
         console.log(user);
         swal("Good Job!", "Logged In Successfully!!", "success");
+        history.replace(from);
       })
       .catch((error) => {
         var errorCode = error.code;
@@ -87,6 +94,7 @@ function Login() {
         };
         setUser(signedInUser);
         setLoggedInUser(signedInUser);
+        history.replace(from);
       })
       .catch((error) => {
         // Handle Errors here.

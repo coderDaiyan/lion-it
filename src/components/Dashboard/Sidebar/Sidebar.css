@@ -1,0 +1,10 @@
+.sidebar {
+  width: 300px;
+  height: 600px;
+  background: #2e86de;
+}
+.sidebar ul li {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
