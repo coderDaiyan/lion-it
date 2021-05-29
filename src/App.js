@@ -21,7 +21,7 @@ function App() {
             <Home></Home>
           </Route>
         </Switch>
-      </Router>{" "}
+      </Router>
     </loginContext.Provider>
   );
 }
