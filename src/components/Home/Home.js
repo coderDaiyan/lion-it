@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Review from '../Review/Review';
 import Schedule from '../Schedule/Schedule';
 import Services from '../Services/Services';
 
@@ -10,6 +11,7 @@ function Home(props) {
             
             <Schedule></Schedule>
             <Services></Services>
+            <Review></Review>
         </div>
     );
 }

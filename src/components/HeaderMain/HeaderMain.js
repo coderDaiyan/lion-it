@@ -15,7 +15,7 @@ const HeaderMain = () => {
                     <button className="btn  header-button" style={{color:'white', backgroundColor: '#0092FF'}}>More About Us</button>
                     <button className="btn  ml-md-5 header-button" style={{color:'dark', backgroundColor: 'white'}}>Our Services</button>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 d-md-block d-none">
                     <div className="card header-tips">
                         <img src={idea} alt="" />
                         <h3><strong>Today's Tips</strong></h3>
