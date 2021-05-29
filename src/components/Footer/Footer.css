@@ -1,0 +1,9 @@
+.footer-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../images/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.copyright {
+  background-color: black;
+}
