@@ -3,8 +3,8 @@ import "./ReviewCard.css";
 
 const ReviewCard = ({ review }) => {
   return (
-    <div className="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
-      <div className="review-individual card p-4 my-2">
+    <div className="col-md-4 col-sm-6 col-12 review-individual">
+      <div className="card p-4 my-2 mb-5">
         <div>
           <p className="">{review.quote}</p>
         </div>

@@ -29,12 +29,12 @@ const reviewData = [
 
 const Review = () => {
   return (
-    <section className="mt-5 container">
+    <section className="mt-5 review_card">
       <div className="text-center mb-5 mt-5">
         <h4 className="text-uppercase">Look, What People Say</h4>
         <h1 className="text-uppercase">About Us</h1>
       </div>
-      <div className="row mb-5 w-100">
+      <div className="row mb-5 w-100 p-5">
         {reviewData.map((review) => (
           <ReviewCard review={review}></ReviewCard>
         ))}
