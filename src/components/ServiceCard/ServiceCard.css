@@ -1,0 +1,8 @@
+.service_card {
+  transition: all 0.5s;
+}
+
+.service_card:hover {
+  background-color: lightskyblue;
+  transform: translateY(-10%);
+}
