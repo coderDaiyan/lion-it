@@ -1,0 +1,9 @@
+.footer-container {
+  background: linear-gradient(127deg, #000000cb 100%, transparent 50%),
+    url("../../../images/footer-bg.jpg");
+  background-size: cover;
+  /* background-position: center; */
+}
+.copyright {
+  background-color: black;
+}

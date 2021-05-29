@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../images/planning.jpg";
+import pic from "../../../images/planning.jpg";
 
 const Schedule = () => {
   return (

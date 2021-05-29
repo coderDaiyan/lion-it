@@ -1,7 +1,7 @@
 import React from "react";
-// import cloudComputing from "../../images/cloud-computing.png";
-// import httpOrHttps from "../../images/http-or-https.png";
-// import passwordSafe from "../../images/password-safe.jpg";
+import cloudComputing from "../../../images/cloud-computing.png";
+import httpOrHttps from "../../../images/http-or-https.png";
+import passwordSafe from "../../../images/password-safe.jpg";
 
 const Blogs = () => {
   return (
@@ -13,7 +13,7 @@ const Blogs = () => {
         <div className="row">
           <div className="col-md-4">
             <div className=" shadow p-3 mb-5 bg-white rounded">
-              <img style={{ width: "100%" }} src="" alt="" />
+              <img style={{ width: "100%" }} src={passwordSafe} alt="" />
               <h4 className="text-brand my-3">
                 Ways to keep your password safe
               </h4>
@@ -29,7 +29,7 @@ const Blogs = () => {
           </div>
           <div className="col-md-4">
             <div className=" shadow p-3 mb-5 bg-white rounded">
-              <img style={{ width: "100%" }} src="" alt="" />
+              <img style={{ width: "100%" }} src={httpOrHttps} alt="" />
               <h4 className="text-brand my-3">
                 What you need to use http or https
               </h4>
@@ -44,7 +44,7 @@ const Blogs = () => {
           </div>
           <div className="col-md-4">
             <div className="shadow p-3 mb-5 bg-white rounded">
-              <img style={{ width: "100%" }} src="" alt="" />
+              <img style={{ width: "100%" }} src={cloudComputing} alt="" />
               <h4 className="text-brand my-3">cloud computing advantages</h4>
               <p>
                 Cloud computing operates on a similar principle as web-based

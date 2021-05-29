@@ -21,9 +21,9 @@ const Footer = () => {
           /> */}
           Lion IT Solution
         </h1>
-        <h5 className="text-brand">ADDRESS:</h5>
+        <h5 className="text-brand text-white">ADDRESS:</h5>
         <p className="text-white">Rotterdam, Netherlands/33e</p>
-        <h5 className="text-brand">SHOP HOURS:</h5>
+        <h5 className="text-brand text-white">SHOP HOURS:</h5>
         <p className="text-white">
           Monday - Friday: 9:00am - 5:00pm, Saturday: 9:00am - 12:00am
         </p>

@@ -1,6 +1,6 @@
 import React from "react";
-import man from "../../images/man-avatar.png";
-import woman from "../../images/woman-avatar.png";
+import man from "../../../images/man-avatar.png";
+import woman from "../../../images/woman-avatar.png";
 import ReviewCard from "../ReviewCard/ReviewCard";
 
 const reviewData = [
