@@ -6,7 +6,7 @@ import Services from '../Services/Services';
 
 function Home(props) {
     return (
-        <div>
+        <div className="">
             <Header></Header>
             
             <Schedule></Schedule>

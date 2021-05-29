@@ -3,7 +3,7 @@ import pic from '../../images/header-bg.jpg';
 
 const Schedule = () => {
     return (
-        <div className="mt-5 mb-5">
+        <div className="mt-5 mb-5 container">
             <div className="row w-100">
                 <div className="col-md-6 d-flex justify-content-center">
                     <img src={pic} style={{height: '550px', width: '90%'}} alt="" />
