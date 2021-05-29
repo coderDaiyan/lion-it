@@ -12,7 +12,7 @@ const HeaderMain = () => {
                 <div className="logo-container"></div>
                     
                     <h1 className="text-white header-heading">Help Challenge <br /> Critical Activities</h1>
-                    <p className="text-white" >We are experienced professionals who understand that IT services are changing, and are true partners who care about your success and security.</p>
+                    <p data-testid="headerMain-1" className="text-white" >We are experienced professionals who understand that IT services are changing, and are true partners who care about your success and security.</p>
                     <button className="btn my-2 header-button text-white btn-primary" style={{ backgroundColor: '#0092FF'}}>More About Us</button>
                     <button className="btn mx-md-2 mx-0 ml-md-5 header-button" style={{ backgroundColor: '#b9b0b0'}}>Our Services</button>
                 </div>
