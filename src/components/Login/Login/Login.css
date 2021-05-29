@@ -1,0 +1,29 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_child {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.form_child input {
+  border: none;
+  border-bottom: 3px solid lightgray;
+}
+.or {
+  color: gray;
+}
+.or::before,
+.or::after {
+  content: " ----------- ";
+  flex: 1 1;
+  margin: auto;
+}
+.social_signup button {
+  border: 2px solid black !important;
+}
