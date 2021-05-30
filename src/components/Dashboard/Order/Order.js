@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router";
-import swal from "sweetalert";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { loginContext } from "../../../App";
 import serviceData from "../../../fakeData/servicedata.json";
 import { addOrder } from "../../../redux/actions/orderActions";
@@ -21,7 +22,15 @@ function Order() {
     console.log(data);
     dispatch(addOrder({ data, selectedService }));
     if (data) {
-      swal("YAY!", "Ordered Successfully", "success");
+      toast.success("Wow! Ordered Successfully", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
     }
   };
 
@@ -31,6 +40,19 @@ function Order() {
   return (
     <>
       <Dashboard>
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+        {/* Same as */}
+        <ToastContainer />
         <form
           // style={{ display: orderData ? "none" : "block" }}
           onSubmit={handleSubmit(onSubmit)}
