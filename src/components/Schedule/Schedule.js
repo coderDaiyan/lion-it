@@ -4,12 +4,12 @@ import pic from '../../images/header-bg.jpg';
 const Schedule = () => {
     return (
         <div className="mt-5 mb-5 container">
-            <div className="row w-100">
-                <div className="col-md-6 d-flex justify-content-center">
-                    <img src={pic} style={{height: '550px', width: '90%'}} alt="" />
+            <div className="row ">
+                <div className="col-md-6 d-flex justify-content-center m-auto">
+                    <div><img  src={pic} style={{height: '550px', width: '100%'}} alt="" /></div>
                 </div>
                 <div className="col-md-6">
-                    <p>Improve Efficiency And Provide Better Experiences!</p>
+                    <p className="mt-md-0 mt-3">Improve Efficiency And Provide Better Experiences!</p>
                     <h1>Keep Your Business Safe & Ensure High Availability.</h1>
                     <div className="" style={{ width: '90%', marginLeft: '5%', borderLeft: '1px solid #0092FF', padding: '5px', paddingLeft: '5%'}}>
                         <h5>As one of the world's largest ITService Providers, our deep pool of over 130 certified engineers and IT support staff are ready to help.</h5>

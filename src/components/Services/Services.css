@@ -30,3 +30,8 @@
     opacity: .8;
     top: 0;
 }
+@media only screen and (max-width: 600px) {
+    .service-container{
+        height: 100%;
+    }
+}

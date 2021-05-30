@@ -1,7 +1,7 @@
 .header-container {
     height: 100vh;
     position:relative;
-    background-image: url('../../images/header-bg.jpg');
+    background-image: url('../../images/header-bg-2.jpg');
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -14,6 +14,6 @@
     position: absolute;
     background: #181414;
     /* background: #151616; */
-    opacity: .5;
+    opacity: .6;
     top: 0;
 }
