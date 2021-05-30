@@ -20,7 +20,7 @@ function Order() {
 
   const onSubmit = (data) => {
     console.log(data);
-    dispatch(addOrder({ data, selectedService }));
+    dispatch(addOrder({ data, selectedService, status: "Pending" }));
     if (data) {
       toast.success("Wow! Ordered Successfully", {
         position: "top-right",
@@ -31,6 +31,14 @@ function Order() {
         draggable: true,
         progress: undefined,
       });
+      localStorage.setItem(
+        "orderData",
+        JSON.stringify({
+          data,
+          selectedService,
+          status: "Pending",
+        })
+      );
     }
   };
 
