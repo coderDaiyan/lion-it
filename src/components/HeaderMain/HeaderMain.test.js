@@ -7,4 +7,4 @@ test('should render headerMain component', () => {
     const headerMainElement = screen.getByTestId('headerMain-1');
     expect(headerMainElement).toBeInTheDocument();
     expect(headerMainElement).toHaveTextContent('experienced');
-})
+}) 
