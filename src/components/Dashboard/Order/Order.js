@@ -1,3 +1,4 @@
+import moment from "moment";
 import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
@@ -20,7 +21,14 @@ function Order() {
 
   const onSubmit = (data) => {
     console.log(data);
-    dispatch(addOrder({ data, selectedService, status: "Pending" }));
+    dispatch(
+      addOrder({
+        data,
+        selectedService,
+        status: "Pending",
+        time: moment(new Date()).format("LL"),
+      })
+    );
     if (data) {
       toast.success("Wow! Ordered Successfully", {
         position: "top-right",
@@ -31,14 +39,6 @@ function Order() {
         draggable: true,
         progress: undefined,
       });
-      localStorage.setItem(
-        "orderData",
-        JSON.stringify({
-          data,
-          selectedService,
-          status: "Pending",
-        })
-      );
     }
   };
 
