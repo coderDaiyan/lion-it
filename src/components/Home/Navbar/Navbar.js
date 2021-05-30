@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
@@ -24,17 +25,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <HashLink className="nav-link" to="/#about">
                 About
-              </Link>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <HashLink className="nav-link" to="/#footer">
                 Contact US
-              </Link>
+              </HashLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/dashboard">
+              <Link className="nav-link" to="/dashboard/orders">
                 Dashboard
               </Link>
             </li>

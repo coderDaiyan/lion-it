@@ -4,20 +4,13 @@ import "./ReviewCard.css";
 const ReviewCard = ({ review }) => {
   return (
     <div className="col-md-4 col-sm-6 col-12 review-individual">
-      <div className="card p-4 my-2 mb-5">
+      <div style={{ width: "350px" }} className="card p-4 my-2 mb-5">
         <div>
-          <p className="">{review.quote}</p>
+          <p className="">{review.notes}</p>
         </div>
         <div className="d-flex align-items-center">
-          <div className="p-2 review-img">
-            <img src={review.img} alt="" />
-          </div>
           <div className="p-2 ml-3 d-flex align-items-center">
-            <h6 className="text-info">
-              {review.name}
-              <br />
-              <span className="text-secondary">{review.from}</span>
-            </h6>
+            <h6 className="text-info">{review.name}</h6>
           </div>
         </div>
       </div>

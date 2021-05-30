@@ -11,7 +11,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <section className="footer-container">
+    <section id="footer" className="footer-container">
       <div className="text-center my-5 py-5">
         <h1 className="text-white">
           {/* <img

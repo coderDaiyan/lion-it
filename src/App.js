@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { PersistGate } from "redux-persist/integration/react";
 import "./App.css";
 import Dashboard from "./components/Dashboard/Dashboard/Dashboard";
+import GiveReview from "./components/Dashboard/GiveReview/GiveReview";
 import Order from "./components/Dashboard/Order/Order";
 import OrderList from "./components/Dashboard/OrderList/OrderList";
 import Home from "./components/Home/Home/Home";
@@ -23,6 +24,9 @@ function App() {
           <Router>
             <Navbar />
             <Switch>
+              <PrivateRoute path="/dashboard/review">
+                <GiveReview />
+              </PrivateRoute>
               <PrivateRoute path="/dashboard/orders">
                 <OrderList />
               </PrivateRoute>

@@ -6,18 +6,21 @@ import passwordSafe from "../../../images/password-safe.jpg";
 const Blogs = () => {
   const blogData = [
     {
+      id: 1,
       title: "Ways to keep your password safe",
       description:
         "You must be having some basic knowledge on how, you can keep your password safe, secure and protected. Like, you must keep a long password with the maximum number of characters, using numbers and symbols etc. Still, there are some common pitfalls, that anybody with passwords should avoid keeping their password safe.",
       img: passwordSafe,
     },
     {
+      id: 2,
       title: "What you need to use http or https",
       description:
         "The HTTPS is better than HTTP because it provides security. Sometimes our website does not contain an e-commerce page that requires sensitive data; in that case, we can switch to the HTTP protocol. Despite the security, HTTPS also provides SEO. So, we do need to put more effort into boosting our SEO.",
       img: httpOrHttps,
     },
     {
+      id: 3,
       title: "Cloud computing advantages",
       description:
         "Cloud computing operates on a similar principle as web-based email clients, allowing users to access all of the features and files of the system without having to keep the bulk of that system on their own computers. Most people already use a variety of cloud computing services without even realizing it. Gmail, Google Drive, and even Facebook and Instagram are all cloud-based applications.",

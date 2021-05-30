@@ -59,8 +59,6 @@ function Order() {
           draggable
           pauseOnHover
         />
-        {/* Same as */}
-        <ToastContainer />
         <form
           // style={{ display: orderData ? "none" : "block" }}
           onSubmit={handleSubmit(onSubmit)}

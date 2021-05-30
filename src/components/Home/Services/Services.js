@@ -12,7 +12,7 @@ const Services = () => {
       <br />
       <div className="row w-100 mt-5">
         {serviceData.map((service) => (
-          <ServiceCard service={service}></ServiceCard>
+          <ServiceCard key={service.id} service={service}></ServiceCard>
         ))}
 
         <p className="text-secondary mt-4 text-center">

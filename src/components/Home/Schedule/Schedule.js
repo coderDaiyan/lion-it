@@ -3,7 +3,7 @@ import pic from "../../../images/planning.jpg";
 
 const Schedule = () => {
   return (
-    <section className="mt-5 mb-5">
+    <section id="about" className="mt-5 mb-5">
       <div className="row w-100">
         <div className="col-md-6 d-flex justify-content-center">
           <img
